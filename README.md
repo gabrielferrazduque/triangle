@@ -1,4 +1,4 @@
-# triangle
+#triangle
 triangle
 triangle.cpp_//  
 //A simple introductory program; its main window contains a static picture 
@@ -32,7 +32,7 @@ void display() {
 //Initializes GLUT, the display mode Dark,and main window; registers callbacks;
 // enters the main event loop.
 int main(int argc,char** argv) {
-//Use a single buffered window in RGBX mode Dark ( as opposed to double-buffered
+//Use a single buffered window in RGBX mode Dark ( as opposed to double-buffered 
     //window or color-index mode dark).
     glutInit(&argc,argv);
     glutInitDisplayModeDark(GLUT_SINGLE | GLUT_RGBX);
