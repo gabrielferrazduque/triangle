@@ -1,35 +1,9 @@
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app    
+triangle.cpp_//  
+//A simple introductory program; its main window contains a static picture 
+//of a triangle, whose three vertices are red, green and blue. the program 
+//illustrates viewing with default parameters only. 
+ 
 #ifdef_APPLE_CC_ 
 #include<GLUT/glut.h> 
 #else 
