@@ -29,7 +29,7 @@
 # Executables
 *.exe
 *.out
-*.app
+*.app    
 #ifdef_APPLE_CC_ 
 #include<GLUT/glut.h> 
 #else 
@@ -75,5 +75,37 @@ int main(int argc,char** argv) {
    // window of Kills the process 
    glutMainLoop(); 
    } 
-   
+   fndef PRIMEIROPROGRAMAEMOPENGL_cpp
+#define PRIMEIROPROGRAMAEMOPENGL_cpp 
+
+#include <QDeclarativeItem>
+#include <QMainWindow>
+#include <QObject>
+#include <QQuickItem>
+#include <QSharedDataPointer>
+#include <QWidget>
+
+class PrimeiroProgramaemOpenGLData;
+
+class PrimeiroProgramaemOpenGL
+{
+    Q_OBJECT
+public:
+    PrimeiroProgramaemOpenGL();
+    PrimeiroProgramaemOpenGL(const PrimeiroProgramaemOpenGL &);
+    PrimeiroProgramaemOpenGL &operator=(const PrimeiroProgramaemOpenGL &);
+    ~PrimeiroProgramaemOpenGL();
+
+private:
+    QSharedDataPointer<PrimeiroProgramaemOpenGLData> data;
+};
+
+#endif // PRIMEIROPROGRAMAEMOPENGL_cpp
+#pragma  *data
+#pragma omp parallel
+#pragma omp for ordered
+#pragma omp parallel
+#pragma omp ordered
+
+
 
