@@ -14,7 +14,10 @@ triangle.cpp_//
 void display() {
 
 // set every pixel in the frame buffer to current clear color.
-    glClear(GL_COLOR_BUFFER_BIT);
+    glClear(GL_COLOR_BUFFER_BIT); 
+
+ // 
+ //
      
     // Drawing is done by specifyng a sequence of vertices. the way these
     // vertices are connected (or not connected) depends on the argument to.
